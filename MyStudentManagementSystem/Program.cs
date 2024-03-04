@@ -1,0 +1,15 @@
+﻿// See https://aka.ms/new-console-template for more information
+using MyStudentManagementSystem;
+using System;
+
+Console.WriteLine("\t$$\\      $$\\           $$\\      $$$$$$\\   $$$$$$\\  $$\\      $$\\ $$$$$$$$\\ \r\n\t$$ | $\\  $$ |          $$ |    $$  __$$\\ $$  __$$\\ $$$\\    $$$ |$$  _____|\r\n\t$$ |$$$\\ $$ | $$$$$$\\  $$ |    $$ /  \\__|$$ /  $$ |$$$$\\  $$$$ |$$ |      \r\n\t$$ $$ $$\\$$ |$$  __$$\\ $$ |    $$ |      $$ |  $$ |$$\\$$\\$$ $$ |$$$$$\\    \r\n\t$$$$  _$$$$ |$$$$$$$$ |$$ |    $$ |      $$ |  $$ |$$ \\$$$  $$ |$$  __|   \r\n\t$$$  / \\$$$ |$$   ____|$$ |    $$ |  $$\\ $$ |  $$ |$$ |\\$  /$$ |$$ |      \r\n\t$$  /   \\$$ |\\$$$$$$$\\ $$$$$$$$\\$$$$$$  | $$$$$$  |$$ | \\_/ $$ |$$$$$$$$\\ \r\n\t\\__/     \\__| \\_______|\\________\\______/  \\______/ \\__|     \\__|\\________|\r\n\t;                                                                          \r\n                                                                          \r\n                                                                          ");
+Console.WriteLine(" __       __        ________        __               ______          ______         __       __        ________ \r\n/  |  _  /  |      /        |      /  |             /      \\        /      \\       /  \\     /  |      /        |\r\n$$ | / \\ $$ |      $$$$$$$$/       $$ |            /$$$$$$  |      /$$$$$$  |      $$  \\   /$$ |      $$$$$$$$/ \r\n$$ |/$  \\$$ |      $$ |__          $$ |            $$ |  $$/       $$ |  $$ |      $$$  \\ /$$$ |      $$ |__    \r\n$$ /$$$  $$ |      $$    |         $$ |            $$ |            $$ |  $$ |      $$$$  /$$$$ |      $$    |   \r\n$$ $$/$$ $$ |      $$$$$/          $$ |            $$ |   __       $$ |  $$ |      $$ $$ $$/$$ |      $$$$$/    \r\n$$$$/  $$$$ |      $$ |_____       $$ |_____       $$ \\__/  |      $$ \\__$$ |      $$ |$$$/ $$ |      $$ |_____ \r\n$$$/    $$$ |      $$       |      $$       |      $$    $$/       $$    $$/       $$ | $/  $$ |      $$       |\r\n$$/      $$/       $$$$$$$$/       $$$$$$$$/        $$$$$$/         $$$$$$/        $$/      $$/       $$$$$$$$/ \r\n                                                                                                                \r\n                                                                                                                \r\n                                                                                                                ");
+Console.WriteLine("\t\t\tW E L C O M E  T O  T H E  S T U D E N T  M A N A G E M E N T  S Y S T E M ! !\t\t\t");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("\t\t\t______________________________________________________________________________\t\t\t");
+Console.WriteLine();
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine("Enter Any Key to Continue");
+Console.ReadKey();
+ProjectMainMenu projectMainMenu = new ProjectMainMenu();
+projectMainMenu.DisplayMainMenu();
